@@ -1,0 +1,85 @@
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: beige;
+}
+
+.title {
+  font-size: 4rem;
+}
+
+.chessBoard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60vw;
+  height: 60vw;
+  box-shadow: 0 0 25px black;
+}
+
+.knight, .knightEnd{
+  position: absolute;
+  width: 4vw;
+}
+
+.directional {
+  position: absolute;
+  width: 5vw;
+  animation: pulse 1.5s infinite;
+}
+
+
+
+.marker-container {
+  position: absolute;
+}
+
+.marker {
+  width: 3vw;
+  height: 3vw;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  font-weight: bold;
+  color: white;
+}
+
+.square {
+  flex: 1 0 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.black {
+  background-color: rgb(48, 48, 48);
+}
+
+.white {
+  background-color: whitesmoke;
+}
+
+.knightEnd {
+  filter: invert(15%) sepia(86%) saturate(4493%) hue-rotate(331deg) brightness(95%) contrast(118%);
+  
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    filter: invert(15%) sepia(86%) saturate(4400%) hue-rotate(331deg) brightness(75%) contrast(118%);
+  }
+
+  50% {
+    filter: invert(15%) sepia(86%) saturate(4493%) hue-rotate(331deg) brightness(99%) contrast(118%);
+  }
+
+  100% {
+    filter: invert(15%) sepia(86%) saturate(4400%) hue-rotate(331deg) brightness(75%) contrast(118%);
+  }
+}
