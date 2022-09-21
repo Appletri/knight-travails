@@ -14,19 +14,19 @@
 .chessBoard {
   display: flex;
   flex-wrap: wrap;
-  width: 60vw;
-  height: 60vw;
+  width: 60vh;
+  height: 60vh;
   box-shadow: 0 0 25px black;
 }
 
 .knight, .knightEnd{
   position: absolute;
-  width: 4vw;
+  width: 4vh;
 }
 
 .directional {
   position: absolute;
-  width: 5vw;
+  width: 5vh;
   animation: pulse 1.5s infinite;
 }
 
@@ -37,8 +37,8 @@
 }
 
 .marker {
-  width: 3vw;
-  height: 3vw;
+  width: 3vh;
+  height: 3vh;
   background-color: red;
   display: flex;
   justify-content: center;
