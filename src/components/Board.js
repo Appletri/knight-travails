@@ -82,12 +82,20 @@ function Board() {
     }
 
     dataExtraction(pathData);
+    //changes directionals to make more sense
+    pathing.forEach((path, i) => {
+      if (![2,5,8,11,14,17].includes(i)) {
+        if (path.dir !== pathing[i+1].dir) {
+          path.dir = pathing[i+1].dir;
+        }
+      }
+    })
     //adds icon to directional
-    pathing.map((e) => {
-      if (e.dir === 'u') return e.dir = upIcon;
-      if (e.dir === 'r') return e.dir = rightIcon;
-      if (e.dir === 'l') return e.dir = leftIcon;
-      if (e.dir === 'd') return e.dir = downIcon; 
+    pathing.map((path) => {
+      if (path.dir === 'u') return path.dir = upIcon;
+      if (path.dir === 'r') return path.dir = rightIcon;
+      if (path.dir === 'l') return path.dir = leftIcon;
+      if (path.dir === 'd') return path.dir = downIcon; 
     })
 
     setPath(pathing);
