@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/knight-travails/static/css/main.edc24fab.css",
-    "main.js": "/knight-travails/static/js/main.da0638b3.js",
+    "main.js": "/knight-travails/static/js/main.058f2c45.js",
     "static/media/knight-simple-chess-piece-cut-out-by_vexels.png": "/knight-travails/static/media/knight-simple-chess-piece-cut-out-by_vexels.d947a752e3f5c8a36b8f.png",
     "index.html": "/knight-travails/index.html",
     "main.edc24fab.css.map": "/knight-travails/static/css/main.edc24fab.css.map",
-    "main.da0638b3.js.map": "/knight-travails/static/js/main.da0638b3.js.map"
+    "main.058f2c45.js.map": "/knight-travails/static/js/main.058f2c45.js.map"
   },
   "entrypoints": [
     "static/css/main.edc24fab.css",
-    "static/js/main.da0638b3.js"
+    "static/js/main.058f2c45.js"
   ]
 }
