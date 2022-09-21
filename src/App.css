@@ -11,6 +11,20 @@
   font-size: 3.3rem;
 }
 
+.blackIns, .redIns {
+  font-weight: bold;
+}
+
+.redIns {
+  color: red
+}
+
+.instructions {
+  display: flex;
+  justify-content: space-between;
+  width: 70vh;
+}
+
 .chessBoard {
   display: flex;
   flex-wrap: wrap;

@@ -11,7 +11,7 @@ function BuildPath(start, end) {
   while (queue.length !== 0) {
     let current = queue.shift();
     
-    current.distance = current.predecessor === null ? 0 : current.predecessor.distance + 1;
+    current.distance = (current.predecessor === null ? 0 : current.predecessor.distance + 1);
 
     
     if (current.data === start) {

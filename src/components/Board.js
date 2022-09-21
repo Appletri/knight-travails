@@ -52,6 +52,7 @@ function Board() {
   //updates states to build path
   useEffect(() => {
     const pathData = BuildPath(start,end);
+    console.log(pathData);
     let milestones = [];
     let pathing = [];
     
