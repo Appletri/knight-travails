@@ -1,5 +1,5 @@
 # Knight Travails
-![incoming gif]()
+![](https://github.com/Appletri/Appletri/blob/main/assets/knight-travails-JPG)
 ## Links
 - [Try Knight Travils here!](https://appletri.github.io/knight-travails/)
 
